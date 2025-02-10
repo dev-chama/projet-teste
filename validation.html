@@ -15,9 +15,9 @@
 
         <form action="#" method="POST">
             <input type="text" id="etudiant" name="etudiant" placeholder="Nom de l'étudiant" required>
-            <input type="text" id="maths" name="maths" placeholder="Note en maths" required>
+            <input type="number" min="0" max="20" id="maths" name="maths" placeholder="Note en maths" required>
     
-            <input type="text" id="informatique" name="informatique" placeholder="Note en informatique" required>
+            <input type="number" min="0" max="20" id="informatique" name="informatique" placeholder="Note en informatique" required>
 
             <button type="button" class="login-btn" onclick="window.location.href='resultat.html'">Résultat</button> 
 
