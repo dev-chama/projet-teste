@@ -1,0 +1,128 @@
+/* Centrer la page */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #87CEEB, #00008B , #00008B , #87CEEB);
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Conteneur de la page */
+.login-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: auto;
+    width: auto;
+}
+
+/* Titre */
+h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+/* Style pour le logo */
+.logo {
+    display: block;
+    margin: 0 auto 20px auto; /* Centrer le logo et ajouter un espace en dessous */
+    width: 450px; 
+    height: auto; 
+}
+
+/* Labels */
+label {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Champs de saisie */
+input {
+    width: 96%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Bouton Résultat */
+.login-btn {
+    width: 100%;
+    background-color: #186ff2;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+/*Triangle (symbole de lecture) */
+.search-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%; /* Pour créer un cercle */
+    background-color: white;
+    color: #007BFF;
+    font-size: 12px;
+  }
+.login-btn:hover {
+    background: linear-gradient(135deg, #87CEEB, #00008B , #00008B , #87CEEB);
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Bouton Annuler */
+.cancel-btn {
+    width: 100%;
+    background-color: #166fe5;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.cancel-btn:hover {
+    background-color: #d32f2f;
+}
+.forgot-password {
+    color: #1877f2;
+    border-radius: 5px;
+    font-size: 16px;
+}
+footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+        background-color: #f8f9fa; /* Optionnel: Ajoutez une couleur de fond */
+        border-top: 1px solid #e9ecef; /* Optionnel: Ajoutez une bordure en haut */
+        font-weight: bold;
+}
+.note {
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+}   
+.n {
+    font-weight: bolder;
+    color: #d32f2f;
+}
